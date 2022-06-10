@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.create{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 80px;
+  padding-top: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.printMn{
+  min-width: 500px;
+
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 20px;
+
+  text-align: center;
+}
+
+.MnBtn{
+  margin-top: 50px;
+
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+
+.keyStore{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 80px;
+  margin-top: 150px;
+}
+
+.pw{
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.mn{
+  width: 500px;
+}
+
+.KeyBtn{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: aquamarine;
+
+  align-self: center;
+}
+
+.address{
+  align-self: center;
 }
